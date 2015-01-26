@@ -1,8 +1,8 @@
 
 
-## Purpose
+## Flashcode
 
-Flashcode is flash cards for coders. Think of it as a card-sized version of Codecademy or Treehouse.
+[Flashcode](https://ss15-teampw.divshot.io) is flash cards for coders. Think of it as a card-sized version of Codecademy or Treehouse.
 
 It's a fun and focused way to:
 
