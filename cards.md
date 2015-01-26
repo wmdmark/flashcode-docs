@@ -1,6 +1,8 @@
 
 ### Intro. to the Flashcode Challenge Card Engine&trade;
 
+![Card Admin](http://wmd-cdn.s3.amazonaws.com/card-admin.png)
+
 Challenge Cards are built with JavaScript and Markdown.
 
 There are four fields that make up a Challenge Card:
@@ -30,4 +32,4 @@ Check out the [Demo Deck for Creators](https://ss15-teampw.divshot.io/deck/wJeWG
 
 
 ### Known bugs/quirks
-- [ ] Using Markdown headings and links in instructions is currently broken :frowning:
+- [ ] Using Markdown headings and links in instructions is currently broken. The instructions Markdown in general is pretty touchy at the moment. :frowning:
