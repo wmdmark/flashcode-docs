@@ -8,7 +8,7 @@ There are four fields that make up a Challenge Card:
 - **Instructions Markdown**: GHF Markdown instructions for how to complete the challenge. 
 - **Context JavaScript (optional)**: Any extra JavaScript that is needed to run the user's solution. 
 - **Initial JavaScript (optional)**: A JavaScript template that shows up in the solution editor to help the user get started. 
-- **Solution Validation JavaScript**: Tests that validate the user's solution. Assertions can be written in [Chai](http://chaijs.com/) and/or [Sinon](http://sinonjs.org/).
+- **Solution Validation JavaScript**: Tests that validate the user's solution. Assertions can be written in [Chai](http://chaijs.com/) and/or [Sinon](http://sinonjs.org/). [Underscore.js](http://underscorejs.org/) and [jQuery](http://jquery.com/) are also available in the test sandbox.
 
 ### Running the solution
 When a solution is submitted by the user a code block is built and run:
