@@ -1,7 +1,6 @@
+![Card Admin](http://wmd-cdn.s3.amazonaws.com/card-admin.png)
 
 ### Intro. to the Flashcode Challenge Card Engine&trade;
-
-![Card Admin](http://wmd-cdn.s3.amazonaws.com/card-admin.png)
 
 Challenge Cards are built with JavaScript and Markdown.
 
