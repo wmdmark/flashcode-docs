@@ -1,24 +1,29 @@
 
-Cards are code challenges built with JavaScript and Markdown
+### Challenge card structure
 
-Here's a breakdown of how each field works to build a problem:
+Challenge cards are built with JavaScript and Markdown.
 
-## Instructions
-This is where you enter the instructions for how to complete the problem in Github Flavored Markdown.
+There are four fields that make up a challenge card:
 
-## Context (optional)
-Enter any JavaScript here that is required for the user to complete the problem. For example, if an object called "Car" is required to complete this problem then you might enter something like this:
+- **Instructions**: GHF Markdown instructions for how to complete the challenge. *Note: There is currently a bug that prevents Markdown headings from working. This will be fixed after the contest judging is over*
+- **Context** (optional): Any extra JavaScript that is needed for the user's solution. 
+- **Initial JavaScript (optional)**: A JavaScript template that show's up in the solution editor to help the user get started. 
+- **Solution Validation**: Tests that validate the user's solution. Assertions can be written in Chai and/or Sinon.
+
+### Running the solution
+When a solution is submitted by the user a code block is built and run:
 
 ```js
-function Car(make, model, year) {
-  this.make = make;
-  this.model = model;
-  this.year = year;
-}
+var solutionJS = [
+    card.contextJS,
+    userSolutionJS, // the user's submitted solution
+    card.validationJS
+].join("\n")
 ```
 
-## Initial JavaScript (optional)
-Setting JavaScript value here will give the user something to start with. Think of it as a getting started template for the user.
+This code block is run in a sandbox and if any exceptions are thrown from it they are handled and displayed to the user. If no exceptions are thrown, the solution is considered to be correct.
 
-## Solution Validation
-This is where you write assertions about the user's solution to validate whether or not they successfully completed the problem.
+
+## Examples
+
+Check out the [Demo Deck for Creators](https://ss15-teampw.divshot.io/deck/wJeWGe4cgD/play) for a few examples on how to build different types of challenge cards.
