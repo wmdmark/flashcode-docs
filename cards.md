@@ -28,7 +28,3 @@ This code block is run in a [sandbox](https://github.com/codeschool/javascript-s
 ### Examples
 
 Check out the [Demo Deck for Creators](https://ss15-teampw.divshot.io/deck/wJeWGe4cgD/play) for a few examples on how to build different types of Challenge Cards.
-
-
-### Known bugs/quirks
-- [ ] Using Markdown headings and links in instructions is currently broken. The instructions Markdown in general is pretty touchy at the moment. :frowning:
